@@ -7,9 +7,9 @@ import ListBullet from '@/components/ListBullet.vue'
 </script>
 
 <template>
-  <main class="font-outfit">
-    <img :src="OmeletteImage" alt="">
-    <div class="p-10 space-y-4">
+  <main class="font-outfit max-w-2xl mx-auto bg-white md:p-10 md:rounded-2xl md:my-24">
+    <img :src="OmeletteImage" alt="" class="md:rounded-xl">
+    <div class="p-10 space-y-6 md:px-0">
       <h1 class="font-young-serif text-dark-charcoal text-4xl">{{ recipe.title }}</h1>
       <p class="text-wenge-brown">{{ recipe.description }}</p>
       <section class="p-6 bg-rose-white rounded-lg">
